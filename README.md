@@ -6,7 +6,7 @@ This is a Plug and Play (project-style) library for LabView. To use it:
 * Extract the contents of the .zip file to a subdirectory of `<labview>\instr.lib`.
 * Navigate to and open the .lvproj file. You can browse the examples included in the project to get started taking measurements with your instrument.
   
-Help to use this library in LabView is found at National Instrument's tutorial: [How to Use an Instrument Driver in LabVIEW Tutorial](http://www.ni.com/tutorial/2804/en/)
+Help to use this library is found at National Instrument's tutorial: [How to Use an Instrument Driver in LabVIEW Tutorial](http://www.ni.com/tutorial/2804/en/)
 
 ## About Tausand Abacus AB1000
 
