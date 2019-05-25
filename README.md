@@ -1,6 +1,21 @@
 # Tausand_AB1000_LabViewLibrary
 library and examples to use Tausand Abacus AB1000 devices with LabView
 
+This is a Plug and Play (project-style) library for LabView. To use it:
+* Download the driver.
+* Extract the contents of the .zip file to a subdirectory of <labview>\instr.lib.
+* Navigate to and open the .lvproj file. You can browse the examples included in the project to get started taking measurements with your instrument.
+  
+Help on how to use libraries in LabView is found at National Instrument's tutorial: [How to Use an Instrument Driver in LabVIEW Tutorial](http://www.ni.com/tutorial/2804/en/)
+
+## About Tausand Abacus AB1000
+
+This is a family of coincidence counters, ideal to measure temporal correlations in particle detection and quantum optics experiments.
+
+To learn more about them, visit our website www.tausand.com
+
+To obtain a Tausand's Abacus coincidence counter, visit our [online shop](http://www.tausand.com/shop) or contact us at sales@tausand.com
+
 ## Tausand Abacus AB1000 Instrument Driver Readme
 
 ### 1. Overview
