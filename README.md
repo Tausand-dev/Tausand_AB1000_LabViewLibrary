@@ -1,12 +1,12 @@
 # Tausand_AB1000_LabViewLibrary
-library and examples to use Tausand Abacus AB1000 devices with LabView
+Library and examples to use Tausand Abacus AB1000 devices with LabView
 
 This is a Plug and Play (project-style) library for LabView. To use it:
-* Download the driver.
-* Extract the contents of the .zip file to a subdirectory of <labview>\instr.lib.
+* Download the library.
+* Extract the contents of the .zip file to a subdirectory of `<labview>\instr.lib`.
 * Navigate to and open the .lvproj file. You can browse the examples included in the project to get started taking measurements with your instrument.
   
-Help on how to use libraries in LabView is found at National Instrument's tutorial: [How to Use an Instrument Driver in LabVIEW Tutorial](http://www.ni.com/tutorial/2804/en/)
+Help to use this library in LabView is found at National Instrument's tutorial: [How to Use an Instrument Driver in LabVIEW Tutorial](http://www.ni.com/tutorial/2804/en/)
 
 ## About Tausand Abacus AB1000
 
@@ -21,10 +21,10 @@ To obtain a Tausand's Abacus coincidence counter, visit our [online shop](http:/
 ### 1. Overview
 Instrument Driver Technology: LabVIEW Plug and Play (project-style)<br/>
 Manufacturer: Tausand <br/>
-Supported Language(s):  LabVIEW <br/>
+Supported Language(s): LabVIEW <br/>
 Supported Model(s): AB1002, AB1004 <br/>
 Model(s) Tested: AB1002, AB1004<br/>
-Interface(s):USB
+Interface(s): USB
 
 Driver Revision:1.0<br/>
 Original Release Date: 05/14/2019 (mm/dd/yyyy)<br/>
