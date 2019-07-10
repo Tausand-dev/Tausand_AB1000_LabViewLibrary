@@ -4,9 +4,34 @@
 <!-- Find and Replace all instances of 'Driver Identifer' with the Driver Identifier of your instrument driver. Remove this note once this is complete. -->
 
 <!-- Replace all the instructions that appear within the <font color="red"> tags with information about your instrument driver.  Make sure to delete the <font color="red"> tags as you fill in each line. Remove this note once this is complete.-->
-  <title>Instrument Driver Readme</title>
+<title>Tausand AB1000 for LabView Instrument Driver Readme</title>
   <style type="text/css">
-  dt { float: left; margin-right: 5px; }
+  dt {
+	float: left;
+	margin-right: 5px;
+	width: 200px;
+}
+th {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: medium;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333;
+	border-right-color: #333;
+	border-bottom-color: #F90;
+	border-left-color: #333;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, td {
+  border: 1px solid #333;
+}
   </style>
 </head>
 <body>
@@ -14,7 +39,8 @@
 <!--<p>To rate this instrument driver, go to the driver download page on the <a href="http://www.ni.com/idnet">Instrument Driver Network</a>.</p>-->
 <h2>1. Overview</h2>
 <dl>
-<dt>Instrument Driver Technology:</dt> <dd>LabVIEW Plug and Play (project-style)</dd>
+<dt>Instrument Driver Technology:</dt> 
+<dd>LabVIEW Plug and Play (project-style)</dd>
 <dt>Manufacturer:</dt><dd>Tausand</dd>
 <dt>Supported Language(s):</dt><dd>LabVIEW</dd>
 <dt>Supported Model(s):</dt><dd>AB1002, AB1004</dd>
@@ -28,15 +54,18 @@
 <dt>Source Code Available:</dt><dd><font color="Red">Yes/No</font></dd>
 </dl>-->
 <dl>
-<dt>Driver Revision:</dt><dd>1.0<!--<font color="Red">The driver revision indicated here should match the driver version in the driver library properties. Example: 1.0</font>--></dd>
-<dt>Original Release Date:</dt><dd>05/14/2019 (mm/dd/yyyy)</dd>
-<dt>Current Revision Date:</dt><dd>05/14/2019</dd>
+<dt>Driver Revision:</dt>
+<dd>1.1<!--<font color="Red">The driver revision indicated here should match the driver version in the driver library properties. Example: 1.0</font>--></dd>
+<dt>Original Release Date:</dt>
+<dd>05/16/2019 (mm/dd/yyyy)</dd>
+<dt>Current Revision Date:</dt>
+<dd>07/10/2019</dd>
 </dl>
 <h2>2. Required Software</h2>
 <p>Some software components need to be installed before using this
 instrument driver. The minimum versions of these components are listed
 below, and can be downloaded from the Download Site.</p>
-<p>VISA 15.0 or later<br>
+<p>NI-VISA 15.0.1 or later<br>
 LabVIEW 2015 or later</p>
 <h2>3. Known Issues</h2>
 <p>To report issues or provide feedback about this instrument driver,
@@ -44,9 +73,25 @@ please send an email to <a href="mailto:support@tausand.com">support@tausand.com
 <!--<p><font color="Red">Include instrument functionality not supported by the driver or known issues as necessary.</font></p>-->
 <h2>4. Revision History</h2>
 <p>The latest version of this and other Tausand instrument drivers can be downloaded at <a href="http://www.tausand.com/downloads/">Tausand downloads website</a>.</p>
-<p>REV 1.0, 16/05/2019<br>
-  Created by: David Guzm&aacute;n, <a href="mailto:dguzman@tausand.com">dguzman@tausand.com</a>, Bogota, Colombia.<br>
-Original release.</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="5px">
+  <tr>
+    <th>Date</th>
+    <th>Version</th>
+    <th>Description of Revision</th>
+  </tr>
+  <tr>
+    <td align="center">05/16/2019</td>
+    <td align="center">1.0</td>
+    <td>Original release.<br>
+    Created by: David Guzm&aacute;n, <a href="mailto:dguzman@tausand.com">dguzman@tausand.com</a>, Bogota, Colombia.</td>
+  </tr>
+  <tr>
+    <td align="center">07/10/2019</td>
+    <td align="center">1.1</td>
+    <td>Update on <em>Wait for Acquisition Complete</em> VI. Now it returns a warning instead of an error when max timeout is reached.<br>
+    Updated by: David Guzm&aacute;n, <a href="mailto:dguzman@tausand.com">dguzman@tausand.com</a>, Bogota, Colombia.</td>
+  </tr>
+</table>
 <!--<p>REV 1.0, 14/05/2019<br>
   Modified by: David Guzm&aacute;n, Bogota, Colombia.<br>
 Original release.</p>-->
