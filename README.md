@@ -26,13 +26,13 @@ Supported Model(s): AB1002, AB1004 <br/>
 Model(s) Tested: AB1002, AB1004<br/>
 Interface(s): USB
 
-Driver Revision:1.0<br/>
-Original Release Date: 05/14/2019 (mm/dd/yyyy)<br/>
-Current Revision Date: 05/14/2019
+Driver Revision:1.1<br/>
+Original Release Date: 05/16/2019 (mm/dd/yyyy)<br/>
+Current Revision Date: 07/10/2019
 
 ### 2. Required Software
 Some software components need to be installed before using this instrument driver. The minimum versions of these components are listed below, and can be downloaded from the Download Site.
-* VISA 15.0 or later
+* NI-VISA 15.0.1 or later
 * LabVIEW 2015 or later
 
 ### 3. Known Issues
@@ -44,3 +44,8 @@ The latest version of this and other Tausand instrument drivers can be downloade
 * REV 1.0, 16/05/2019<br/>
 Created by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
 Original release.
+
+
+* REV 1.1, 07/10/2019<br/>
+Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
+Update on _Wait for Acquisition Complete_ VI. Now it returns a warning instead of an error when max timeout is reached.
