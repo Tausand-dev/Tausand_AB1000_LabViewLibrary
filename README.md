@@ -22,13 +22,13 @@ To obtain a Tausand's Abacus coincidence counter, visit our [online shop](http:/
 Instrument Driver Technology: LabVIEW Plug and Play (project-style)<br/>
 Manufacturer: Tausand <br/>
 Supported Language(s): LabVIEW <br/>
-Supported Model(s): AB1002, AB1004 <br/>
+Supported Model(s): AB1002, AB1004, AB1502, AB1504, AB1902, AB1904<br/>
 Model(s) Tested: AB1002, AB1004<br/>
 Interface(s): USB
 
-Driver Revision:1.1<br/>
+Driver Revision:1.2<br/>
 Original Release Date: 05/16/2019 (mm/dd/yyyy)<br/>
-Current Revision Date: 07/10/2019
+Current Revision Date: 02/20/2020
 
 ### 2. Required Software
 Some software components need to be installed before using this instrument driver. The minimum versions of these components are listed below, and can be downloaded from the Download Site.
@@ -39,7 +39,7 @@ Some software components need to be installed before using this instrument drive
 To report issues or provide feedback about this instrument driver, please send an email to support@tausand.com.
 
 ### 4. Revision History
-The latest version of this and other Tausand instrument drivers can be downloaded at Tausand downloads website.
+The latest version of this and other Tausand instrument drivers can be downloaded at [Tausand downloads website](http://www.tausand.com/downloads/).
 
 * REV 1.0, 16/05/2019<br/>
 Created by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
@@ -49,3 +49,8 @@ Original release.
 * REV 1.1, 07/10/2019<br/>
 Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
 Update on _Wait for Acquisition Complete_ VI. Now it returns a warning instead of an error when max timeout is reached.
+
+
+* REV 1.2, 02/20/2020<br/>
+Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
+New supported models: AB1502, AB1504 (2ns resolution), AB1902 and AB1904 (1ns resolution).
