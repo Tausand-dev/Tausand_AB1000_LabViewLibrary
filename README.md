@@ -23,12 +23,12 @@ Instrument Driver Technology: LabVIEW Plug and Play (project-style)<br/>
 Manufacturer: Tausand <br/>
 Supported Language(s): LabVIEW <br/>
 Supported Model(s): AB1002, AB1004, AB1502, AB1504, AB1902, AB1904<br/>
-Model(s) Tested: AB1002, AB1004<br/>
+Model(s) Tested: AB1002, AB1004, AB1502, AB1504<br/>
 Interface(s): USB
 
 Driver Revision:1.2<br/>
 Original Release Date: 05/16/2019 (mm/dd/yyyy)<br/>
-Current Revision Date: 02/20/2020
+Current Revision Date: 06/02/2020
 
 ### 2. Required Software
 Some software components need to be installed before using this instrument driver. The minimum versions of these components are listed below, and can be downloaded from the Download Site.
@@ -51,6 +51,6 @@ Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
 Update on _Wait for Acquisition Complete_ VI. Now it returns a warning instead of an error when max timeout is reached.
 
 
-* REV 1.2, 02/20/2020<br/>
+* REV 1.2, 06/02/2020<br/>
 Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
 New supported models: AB1502, AB1504 (2ns resolution), AB1902 and AB1904 (1ns resolution).
