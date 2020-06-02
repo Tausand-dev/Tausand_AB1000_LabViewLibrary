@@ -111,7 +111,6 @@
 		<Item Name="getAddressDirFromDeviceType.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/getAddressDirFromDeviceType.vi"/>
 		<Item Name="constant_ADDRESS_DIR_AB1002.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/constant_ADDRESS_DIR_AB1002.vi"/>
 		<Item Name="constant_ADDRESS_DIR_AB1004.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/constant_ADDRESS_DIR_AB1004.vi"/>
-		<Item Name="constant_ADDRESS_DIR_AB1502.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/constant_ADDRESS_DIR_AB1502.vi"/>
 		<Item Name="convertEngToSci.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/convertEngToSci.vi"/>
 		<Item Name="convertSciToEng.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/convertSciToEng.vi"/>
 		<Item Name="roundToNearestMultiple.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/roundToNearestMultiple.vi"/>

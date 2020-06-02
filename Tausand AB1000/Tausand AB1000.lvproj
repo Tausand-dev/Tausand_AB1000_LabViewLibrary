@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Name="Template - Generic.lvproj" Type="Project" LVVersion="15008000" URL="/&lt;instrlib&gt;/_Template - Generic/Template - Generic.lvproj">
+<Project Type="Project" LVVersion="15008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
