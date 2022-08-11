@@ -92,34 +92,48 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="AB1008 future" Type="Folder">
-			<Item Name="registerCluster.ctl" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Controls/registerCluster.ctl"/>
+			<Item Name="bundle by name data 8ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/bundle by name data 8ch.vi"/>
 			<Item Name="constant_ADDRESS_DIR_AB1008.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/constant_ADDRESS_DIR_AB1008.vi"/>
-			<Item Name="registersToCounters8ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/registersToCounters8ch.vi"/>
-			<Item Name="counters8chToCounters2ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/counters8chToCounters2ch.vi"/>
-			<Item Name="counters8chToCounters4ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/counters8chToCounters4ch.vi"/>
 			<Item Name="counters2chToCounters8ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/counters2chToCounters8ch.vi"/>
 			<Item Name="counters4chToCounters8ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/counters4chToCounters8ch.vi"/>
-			<Item Name="bundle by name data 8ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/bundle by name data 8ch.vi"/>
 			<Item Name="counters8ch.ctl" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/counters8ch.ctl"/>
+			<Item Name="counters8chToCounters2ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/counters8chToCounters2ch.vi"/>
+			<Item Name="counters8chToCounters4ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/counters8chToCounters4ch.vi"/>
+			<Item Name="registerCluster.ctl" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Controls/registerCluster.ctl"/>
+			<Item Name="registersToCounters8ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/registersToCounters8ch.vi"/>
+			<Item Name="settings8ch.ctl" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/settings8ch.ctl"/>
 			<Item Name="settings8chToSettings2ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/settings8chToSettings2ch.vi"/>
 			<Item Name="settings8chToSettings4ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/settings8chToSettings4ch.vi"/>
-			<Item Name="settings8ch.ctl" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB1008 future/settings8ch.ctl"/>
 		</Item>
-		<Item Name="getDeviceResolution.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/getDeviceResolution.vi"/>
-		<Item Name="getAddressDirFromDeviceType.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/getAddressDirFromDeviceType.vi"/>
+		<Item Name="AB2504 future" Type="Folder">
+			<Item Name="discarded_open_ab2000.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB2504 future/discarded_open_ab2000.vi"/>
+			<Item Name="test_read_AB2504.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB2504 future/test_read_AB2504.vi"/>
+			<Item Name="test_write_AB2504.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB2504 future/test_write_AB2504.vi"/>
+			<Item Name="test_write_AB2504_2.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/AB2504 future/test_write_AB2504_2.vi"/>
+		</Item>
+		<Item Name="buildArrayMinMaxStep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/buildArrayMinMaxStep.vi"/>
+		<Item Name="coerceToList.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/coerceToList.vi"/>
 		<Item Name="constant_ADDRESS_DIR_AB1002.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/constant_ADDRESS_DIR_AB1002.vi"/>
 		<Item Name="constant_ADDRESS_DIR_AB1004.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/constant_ADDRESS_DIR_AB1004.vi"/>
 		<Item Name="convertEngToSci.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/convertEngToSci.vi"/>
 		<Item Name="convertSciToEng.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/convertSciToEng.vi"/>
-		<Item Name="roundToNearestMultiple.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/roundToNearestMultiple.vi"/>
-		<Item Name="writeSerial.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/writeSerial.vi"/>
-		<Item Name="writeSerial32.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/writeSerial32.vi"/>
-		<Item Name="readDatastream.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/readDatastream.vi"/>
 		<Item Name="datastreamToDataArrays.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/datastreamToDataArrays.vi"/>
 		<Item Name="datastreamToDataArrays32.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/datastreamToDataArrays32.vi"/>
-		<Item Name="coerceToList.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/coerceToList.vi"/>
+		<Item Name="getAddressDirFromDeviceType.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/getAddressDirFromDeviceType.vi"/>
+		<Item Name="getDeviceResolution.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/getDeviceResolution.vi"/>
+		<Item Name="readDatastream.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/readDatastream.vi"/>
+		<Item Name="roundToNearestMultiple.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/roundToNearestMultiple.vi"/>
+		<Item Name="testing_checksum_error_32-bit.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_checksum_error_32-bit.vi"/>
+		<Item Name="testing_cw_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_cw_sweep.vi"/>
+		<Item Name="testing_delay_and_cw_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_and_cw_sweep.vi"/>
+		<Item Name="testing_delay_pair_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_pair_sweep.vi"/>
+		<Item Name="testing_delay_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_sweep.vi"/>
+		<Item Name="testing_readMeasurements_selfRecovery.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_readMeasurements_selfRecovery.vi"/>
+		<Item Name="testing_sleep_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_sleep_sweep.vi"/>
+		<Item Name="writeSerial.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/writeSerial.vi"/>
+		<Item Name="writeSerial32.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/writeSerial32.vi"/>
 	</Item>
 	<Item Name="Tausand AB1000 Readme.html" Type="Document" URL="/&lt;instrlib&gt;/Tausand AB1000/Tausand AB1000 Readme.html"/>
 </Library>
