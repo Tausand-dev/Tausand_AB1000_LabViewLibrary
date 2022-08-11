@@ -1,5 +1,5 @@
 # Tausand_AB1000_LabViewLibrary
-Library and examples to use Tausand Abacus AB1000 devices with LabView 2015 or later
+Library and examples to use Tausand Abacus AB1000 devices with LabView 2015 or later.
 
 This is a Plug and Play (project-style) library for LabView. To use it:
 * Download the library.
