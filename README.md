@@ -27,7 +27,7 @@ Supported Model(s): AB1002, AB1004, AB1502, AB1504<br/>
 Model(s) Tested: AB1002, AB1004, AB1502, AB1504<br/>
 Interface(s): USB
 
-Driver Revision:1.3<br/>
+Driver Revision: 1.3<br/>
 Original Release Date: 05/16/2019 (mm/dd/yyyy)<br/>
 Current Revision Date: 08/15/2022
 
