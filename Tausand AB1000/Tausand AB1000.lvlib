@@ -68,6 +68,11 @@
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Data_Low Level.mnu" Type="Document" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Data/Low Level/Data_Low Level.mnu"/>
 				<Item Name="Wait for Acquisition Complete.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Data/Low Level/Wait for Acquisition Complete.vi"/>
+				<Item Name="Read Coincidence.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Data/Low Level/Read Coincidence.vi"/>
+				<Item Name="Read Counter.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Data/Low Level/Read Counter.vi"/>
+				<Item Name="Read Multi-Fold Coincidence.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Data/Low Level/Read Multi-Fold Coincidence.vi"/>
+				<Item Name="Read Crossed Coincidences.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Data/Low Level/Read Crossed Coincidences.vi"/>
+				<Item Name="Read Singles Counters.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Data/Low Level/Read Singles Counters.vi"/>
 			</Item>
 			<Item Name="Conversion" Type="Folder">
 				<Item Name="Data_Conversion.mnu" Type="Document" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Data/Conversion/Data_Conversion.mnu"/>
@@ -130,7 +135,11 @@
 		<Item Name="testing_delay_and_cw_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_and_cw_sweep.vi"/>
 		<Item Name="testing_delay_pair_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_pair_sweep.vi"/>
 		<Item Name="testing_delay_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_sweep.vi"/>
+		<Item Name="testing_readMeasurements.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_readMeasurements.vi"/>
 		<Item Name="testing_readMeasurements_selfRecovery.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_readMeasurements_selfRecovery.vi"/>
+		<Item Name="testing_readMeasurementsCrossed.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_readMeasurementsCrossed.vi"/>
+		<Item Name="testing_readMeasurementsSingles.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_readMeasurementsSingles.vi"/>
+		<Item Name="testing_readSingleCount.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_readSingleCount.vi"/>
 		<Item Name="testing_sleep_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_sleep_sweep.vi"/>
 		<Item Name="writeSerial.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/writeSerial.vi"/>
 		<Item Name="writeSerial32.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/writeSerial32.vi"/>
