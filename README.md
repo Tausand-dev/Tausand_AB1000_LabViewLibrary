@@ -1,7 +1,6 @@
 # Tausand_AB1000_LabViewLibrary
-(v1.3-beta, under development)
 
-Library and examples to use Tausand Abacus AB1000 devices with LabView 2015 or later
+Library and examples to use Tausand Abacus AB1000 devices with LabView 2015 or later.
 
 This is a Plug and Play (project-style) library for LabView. To use it:
 * Download the library.
@@ -24,13 +23,13 @@ To obtain a Tausand's Abacus coincidence counter, visit our [online shop](http:/
 Instrument Driver Technology: LabVIEW Plug and Play (project-style)<br/>
 Manufacturer: Tausand <br/>
 Supported Language(s): LabVIEW <br/>
-Supported Model(s): AB1002, AB1004, AB1502, AB1504, AB1902, AB1904<br/>
+Supported Model(s): AB1002, AB1004, AB1502, AB1504<br/>
 Model(s) Tested: AB1002, AB1004, AB1502, AB1504<br/>
 Interface(s): USB
 
-Driver Revision:1.2<br/>
+Driver Revision:1.3<br/>
 Original Release Date: 05/16/2019 (mm/dd/yyyy)<br/>
-Current Revision Date: 06/02/2020
+Current Revision Date: 08/15/2022
 
 ### 2. Required Software
 Some software components need to be installed before using this instrument driver. The minimum versions of these components are listed below, and can be downloaded from the Download Site.
@@ -43,7 +42,7 @@ To report issues or provide feedback about this instrument driver, please send a
 ### 4. Revision History
 The latest version of this and other Tausand instrument drivers can be downloaded at [Tausand downloads website](http://www.tausand.com/downloads/).
 
-* REV 1.0, 16/05/2019<br/>
+* REV 1.0, 05/16/2019<br/>
 Created by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
 Original release.
 
@@ -56,3 +55,9 @@ Update on _Wait for Acquisition Complete_ VI. Now it returns a warning instead o
 * REV 1.2, 06/02/2020<br/>
 Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
 New supported models: AB1502, AB1504 (2ns resolution), AB1902 and AB1904 (1ns resolution).
+
+
+* REV 1.3, 08/15/2022<br/>
+Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
+New low-level read data functions, to read a limited set of registers in less time.<br/>
+Self recovery method on _Read Mesurements_ VI. Now it reconnects device (close/open) when communication fails.
