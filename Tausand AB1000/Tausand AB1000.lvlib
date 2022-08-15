@@ -122,6 +122,7 @@
 		<Item Name="coerceToList.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/coerceToList.vi"/>
 		<Item Name="constant_ADDRESS_DIR_AB1002.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/constant_ADDRESS_DIR_AB1002.vi"/>
 		<Item Name="constant_ADDRESS_DIR_AB1004.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/constant_ADDRESS_DIR_AB1004.vi"/>
+		<Item Name="constant_ADDRESS_DIR_AB2002.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/constant_ADDRESS_DIR_AB2002.vi"/>
 		<Item Name="convertEngToSci.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/convertEngToSci.vi"/>
 		<Item Name="convertSciToEng.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/convertSciToEng.vi"/>
 		<Item Name="datastreamToDataArrays.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/datastreamToDataArrays.vi"/>
