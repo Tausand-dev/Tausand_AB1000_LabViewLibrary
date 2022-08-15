@@ -60,4 +60,5 @@ New supported models: AB1502, AB1504 (2ns resolution), AB1902 and AB1904 (1ns re
 * REV 1.3, 08/15/2022<br/>
 Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
 New low-level read data functions, to read a limited set of registers in less time.<br/>
-Self recovery method on _Read Mesurements_ VI. Now it reconnects device (close/open) when communication fails.
+Self recovery method on _Read Mesurements_ VI. Now it reconnects device (close/open) when communication fails.<br/>
+New supported models: AB2004 (5ns resolution) and AB2504 (2ns resolution).
