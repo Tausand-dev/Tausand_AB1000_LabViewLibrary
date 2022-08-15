@@ -23,8 +23,8 @@ To obtain a Tausand's Abacus coincidence counter, visit our [online shop](http:/
 Instrument Driver Technology: LabVIEW Plug and Play (project-style)<br/>
 Manufacturer: Tausand <br/>
 Supported Language(s): LabVIEW <br/>
-Supported Model(s): AB1002, AB1004, AB1502, AB1504<br/>
-Model(s) Tested: AB1002, AB1004, AB1502, AB1504<br/>
+Supported Model(s): AB1002, AB1004, AB1502, AB1504, AB2004, AB2504<br/>
+Model(s) Tested: AB1002, AB1004, AB1502, AB1504, AB2504<br/>
 Interface(s): USB
 
 Driver Revision: 1.3<br/>
