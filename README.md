@@ -29,7 +29,7 @@ Interface(s): USB
 
 Driver Revision: 1.4<br/>
 Original Release Date: 05/16/2019 (mm/dd/yyyy)<br/>
-Current Revision Date: 01/17/2023
+Current Revision Date: 01/18/2023
 
 ### 2. Required Software
 Some software components need to be installed before using this instrument driver. The minimum versions of these components are listed below, and can be downloaded from the Download Site.
@@ -59,11 +59,12 @@ New supported models: AB1502, AB1504 (2ns resolution), AB1902 and AB1904 (1ns re
 
 * REV 1.3, 08/15/2022<br/>
 Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
+New supported models: AB2004 (5ns resolution) and AB2504 (2ns resolution).<br/>
 New low-level read data functions, to read a limited set of registers in less time.<br/>
-Self recovery method on _Read Mesurements_ VI. Now it reconnects device (close/open) when communication fails.<br/>
-New supported models: AB2004 (5ns resolution) and AB2504 (2ns resolution).
+Self recovery method on _Read Mesurements_ VI. Now it reconnects device (close/open) when communication fails.
 
 
-* REV 1.4, 01/17/2023<br/>
+* REV 1.4, 01/18/2023<br/>
 Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
-New supported models: AB2002 (5ns resolution) and AB2502 (2ns resolution).
+New supported models: AB2002 (5ns resolution) and AB2502 (2ns resolution).<br/>
+New _Get Resolution_ and _Get Channels_ VIs.

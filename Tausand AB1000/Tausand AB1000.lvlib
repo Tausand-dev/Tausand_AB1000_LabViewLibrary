@@ -87,6 +87,8 @@
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Utility/Utility.mnu"/>
 			<Item Name="Device Type Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Utility/Device Type Query.vi"/>
+			<Item Name="Get Channels From Device Type.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Utility/Get Channels From Device Type.vi"/>
+			<Item Name="Get Resolution From Device Type.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Utility/Get Resolution From Device Type.vi"/>
 			<Item Name="Idn Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Utility/Idn Query.vi"/>
 			<Item Name="Find Devices.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Public/Utility/Find Devices.vi"/>
 		</Item>
@@ -128,8 +130,6 @@
 		<Item Name="datastreamToDataArrays.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/datastreamToDataArrays.vi"/>
 		<Item Name="datastreamToDataArrays32.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/datastreamToDataArrays32.vi"/>
 		<Item Name="getAddressDirFromDeviceType.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/getAddressDirFromDeviceType.vi"/>
-		<Item Name="getChannelsFromDeviceType.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/getChannelsFromDeviceType.vi"/>
-		<Item Name="getDeviceResolution.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/getDeviceResolution.vi"/>
 		<Item Name="readDatastream.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/readDatastream.vi"/>
 		<Item Name="roundToNearestMultiple.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/roundToNearestMultiple.vi"/>
 		<Item Name="testing_checksum_error_32-bit.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_checksum_error_32-bit.vi"/>
