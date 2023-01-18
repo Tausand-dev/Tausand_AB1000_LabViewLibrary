@@ -130,6 +130,7 @@
 		<Item Name="datastreamToDataArrays.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/datastreamToDataArrays.vi"/>
 		<Item Name="datastreamToDataArrays32.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/datastreamToDataArrays32.vi"/>
 		<Item Name="getAddressDirFromDeviceType.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/getAddressDirFromDeviceType.vi"/>
+		<Item Name="joinReadmodeNumber.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/joinReadmodeNumber.vi"/>
 		<Item Name="readDatastream.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/readDatastream.vi"/>
 		<Item Name="roundToNearestMultiple.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/roundToNearestMultiple.vi"/>
 		<Item Name="testing_checksum_error_32-bit.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_checksum_error_32-bit.vi"/>
@@ -138,6 +139,7 @@
 		<Item Name="testing_delay_pair_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_pair_sweep.vi"/>
 		<Item Name="testing_delay_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_sweep.vi"/>
 		<Item Name="testing_query_settings.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_query_settings.vi"/>
+		<Item Name="testing_queryAllSettings.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_queryAllSettings.vi"/>
 		<Item Name="testing_readCoincidence.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_readCoincidence.vi"/>
 		<Item Name="testing_readCounter.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_readCounter.vi"/>
 		<Item Name="testing_readMeasurements.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_readMeasurements.vi"/>
