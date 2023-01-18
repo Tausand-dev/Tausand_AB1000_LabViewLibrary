@@ -44,9 +44,9 @@ table, td {
 <dt>Manufacturer:</dt><dd>Tausand</dd>
 <dt>Supported Language(s):</dt><dd>LabVIEW</dd>
 <dt>Supported Model(s):</dt>
-<dd>AB1002, AB1004, AB1502, AB1504, AB2004, AB2504</dd>
+<dd>AB1002, AB1004, AB1502, AB1504, AB2002, AB2502, AB2004, AB2504</dd>
 <dt>Model(s) Tested:</dt>
-<dd>AB1002, AB1004, AB1502, AB1504, AB2504</dd>
+<dd>AB1002, AB1004, AB1502, AB1504, AB2502, AB2504</dd>
 <dt>Interface(s):</dt><dd>USB</dd>
 <!--<dt>Firmware Revision(s) Tested:</dt><dd><font color="Red">The firmware revisions tested with this driver. Example: 8-5-12, A.01, etc.</font></dd>-->
 </dl>
@@ -57,11 +57,11 @@ table, td {
 </dl>-->
 <dl>
 <dt>Driver Revision:</dt>
-<dd>1.3</dd>
+<dd>1.4</dd>
 <dt>Original Release Date:</dt>
 <dd>05/16/2019 (mm/dd/yyyy)</dd>
 <dt>Current Revision Date:</dt>
-<dd>08/15/2022</dd>
+<dd>01/18/2023</dd>
 </dl>
 <h2>2. Required Software</h2>
 <p>Some software components need to be installed before using this
@@ -102,11 +102,18 @@ please send an email to <a href="mailto:support@tausand.com">support@tausand.com
   <tr>
     <td align="center">08/15/2022</td>
     <td align="center">1.3</td>
-    <td>New low-level read data functions, to read a limited set of registers in less time.<br>
-      Self recovery method on <em>Read Mesurements</em> VI. Now it reconnects device (close/open) when communication fails.<br>
-      New supported models: AB2004 (5ns resolution) and AB2504 (2ns resolution).<br>
+    <td>New supported models: AB2004 (5ns resolution) and AB2504 (2ns resolution).<br>
+      New low-level read data functions, to read a limited set of registers in less time.<br>
+      Self recovery method on <em>Read Mesurements</em> VI. Now it reconnects device (close/open) when communication fails.<br>      
     Updated by: David Guzm&aacute;n, <a href="mailto:dguzman@tausand.com">dguzman@tausand.com</a>, Bogota, Colombia.</td>
   </tr>    
+  <tr>
+    <td align="center">01/18/2023</td>
+    <td align="center">1.4</td>
+    <td>New supported models: AB2002 (5ns resolution) and AB2502 (2ns resolution).<br>
+    New <em>Get Resolution</em> and <em>Get Channels</em> VIs.<br>
+    Updated by: David Guzm&aacute;n, <a href="mailto:dguzman@tausand.com">dguzman@tausand.com</a>, Bogota, Colombia.</td>
+  </tr>  
 </table>
 <!--<p>REV 1.0, 14/05/2019<br>
   Modified by: David Guzm&aacute;n, Bogota, Colombia.<br>
