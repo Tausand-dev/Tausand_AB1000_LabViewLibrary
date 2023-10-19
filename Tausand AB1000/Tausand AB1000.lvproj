@@ -55,6 +55,7 @@
 			<Item Name="Tausand AB1000 Delay Sweep Example (StateMachine).vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Examples/Tausand AB1000 Delay Sweep Example (StateMachine).vi"/>
 			<Item Name="Tausand AB1000 Single Read Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Examples/Tausand AB1000 Single Read Example.vi"/>
 			<Item Name="Tausand AB1000 Sleep Time Sweep Example (StateMachine).vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Examples/Tausand AB1000 Sleep Time Sweep Example (StateMachine).vi"/>
+			<Item Name="Tausand AB1000 Time-correlated single photon counting TCSPC Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Examples/Tausand AB1000 Time-correlated single photon counting TCSPC Example.vi"/>
 		</Item>
 		<Item Name="Tausand AB1000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tausand AB1000/Tausand AB1000.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -141,6 +142,7 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
