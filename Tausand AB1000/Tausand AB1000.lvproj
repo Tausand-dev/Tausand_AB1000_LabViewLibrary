@@ -55,7 +55,8 @@
 			<Item Name="Tausand AB1000 Delay Sweep Example (StateMachine).vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Examples/Tausand AB1000 Delay Sweep Example (StateMachine).vi"/>
 			<Item Name="Tausand AB1000 Single Read Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Examples/Tausand AB1000 Single Read Example.vi"/>
 			<Item Name="Tausand AB1000 Sleep Time Sweep Example (StateMachine).vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Examples/Tausand AB1000 Sleep Time Sweep Example (StateMachine).vi"/>
-			<Item Name="Tausand AB1000 Time-correlated single photon counting TCSPC Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Examples/Tausand AB1000 Time-correlated single photon counting TCSPC Example.vi"/>
+			<Item Name="Tausand AB1000 Time-Correlated Single Photon Counting Histogram (SingleRead) Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Examples/Tausand AB1000 Time-Correlated Single Photon Counting Histogram (SingleRead) Example.vi"/>
+			<Item Name="Tausand AB1000 Time-Correlated Single Photon Counting Histogram (ContinuousRead) Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Examples/Tausand AB1000 Time-Correlated Single Photon Counting Histogram (ContinuousRead) Example.vi"/>
 		</Item>
 		<Item Name="Tausand AB1000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tausand AB1000/Tausand AB1000.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
