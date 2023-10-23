@@ -27,9 +27,9 @@ Supported Model(s): AB1002, AB1004, AB1502, AB1504, AB2002, AB2004, AB2502, AB25
 Model(s) Tested: AB1002, AB1004, AB1502, AB1504, AB2502, AB2504<br/>
 Interface(s): USB
 
-Driver Revision: 1.4<br/>
+Driver Revision: 1.5<br/>
 Original Release Date: 05/16/2019 (mm/dd/yyyy)<br/>
-Current Revision Date: 01/18/2023
+Current Revision Date: 10/23/2023
 
 ### 2. Required Software
 Some software components need to be installed before using this instrument driver. The minimum versions of these components are listed below, and can be downloaded from the Download Site.
@@ -68,3 +68,9 @@ Self recovery method on _Read Mesurements_ VI. Now it reconnects device (close/o
 Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
 New supported models: AB2002 (5ns resolution) and AB2502 (2ns resolution).<br/>
 New _Get Resolution_ and _Get Channels_ VIs.
+
+
+* REV 1.5, 10/23/2023<br/>
+Updated by: David Guzmán, dguzman@tausand.com, Bogota, Colombia.<br/>
+New _Time-correlated single photon counting (TCSPC)_ examples.
+
