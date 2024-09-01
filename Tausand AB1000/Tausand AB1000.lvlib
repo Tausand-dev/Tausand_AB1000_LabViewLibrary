@@ -138,6 +138,8 @@
 		<Item Name="testing_delay_and_cw_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_and_cw_sweep.vi"/>
 		<Item Name="testing_delay_pair_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_pair_sweep.vi"/>
 		<Item Name="testing_delay_sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_sweep.vi"/>
+		<Item Name="testing_delay_sweep_multifold_4ch.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_delay_sweep_multifold_4ch.vi"/>
+		<Item Name="testing_idnQuery.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_idnQuery.vi"/>
 		<Item Name="testing_query_settings.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_query_settings.vi"/>
 		<Item Name="testing_queryAllSettings.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_queryAllSettings.vi"/>
 		<Item Name="testing_readCoincidence.vi" Type="VI" URL="/&lt;instrlib&gt;/Tausand AB1000/Private/testing_readCoincidence.vi"/>
