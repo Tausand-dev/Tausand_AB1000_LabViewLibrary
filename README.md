@@ -1,13 +1,13 @@
 # Tausand_AB1000_LabViewLibrary
 
-Library and examples to use Tausand Abacus AB1000 and AB2000 devices with LabView 2015 or later.
+Library and examples to use Tausand Abacus AB1000 and AB2000 devices with LabVIEW 2015 or later.
 
-This is a Plug and Play (project-style) library for LabView. To use it:
+This is a Plug and Play (project-style) library for LabVIEW. To use it:
 * Download the library.
-* Extract the contents of the .zip file to a subdirectory of `<labview>\instr.lib`.
+* Extract the contents of the .zip file to a subdirectory of your LabVIEW folder, `<National Instruments>\LabVIEW\instr.lib`.
 * Navigate to and open the .lvproj file. You can browse the examples included in the project to get started taking measurements with your instrument.
   
-Help to use this library is found at National Instrument's tutorial: [How to Use an Instrument Driver in LabVIEW Tutorial](http://www.ni.com/tutorial/2804/en/)
+Help to use this library is found at National Instruments' tutorial: [Third Party Instrument Driver Missing in LabVIEW After Installation](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z000000P8THSA0)
 
 ## About Tausand Abacus AB1000 and AB2000
 
